@@ -5,11 +5,11 @@ The Recipe Viewer project aims to create a user-friendly web application that al
 
 ## Key Features 🌟:
 
-👀 View a collection of recipes and also with their details information.
-🔍 Explore recipes by categories.
-🔎 Search recipes by name.
-💾 Save and manage favorite recipes.
-📝 Add new recipes to the collection.
+- 👀 View a collection of recipes and also with their details information.
+- 🔍 Explore recipes by categories.
+- 🔎 Search recipes by name.
+- 💾 Save and manage favorite recipes.
+- 📝 Add new recipes to the collection.
 
 ## Project Goals 🎯:
 

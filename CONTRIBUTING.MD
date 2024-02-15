@@ -28,7 +28,7 @@ There are several ways you can contribute to this project:
 2. Create a new branch for your changes: `git checkout -b my-branch-name`.
 3. Make modifications or additions to the codebase.
 4. Test your changes thoroughly if necessary.
-5. Commit your changes with a descriptive commit message following the COMMIT_GUIDELINES["./COMMIT_GUIDELINES.MD"] : `git commit` (interactive commit mode).
+5. Commit your changes with a descriptive commit message following the [COMMIT_GUIDELINES]("./COMMIT_GUIDELINES.MD"). : `git commit` (interactive commit mode).
 6. Push your changes to your fork: `git push origin my-branch-name`.
 7. Open a pull request on the original repository and provide a clear description of your changes following the PULL_REQUEST_TEMPLATE that will guide you for.
 
@@ -37,7 +37,7 @@ There are several ways you can contribute to this project:
 Please adhere to the following guidelines when contributing:
 
 - Make sure your code is well-formatted and easy to read.
-- Write clear and descriptive commit messages that follows the COMMIT_GUIDELINES["./COMMIT_GUIDELINES.MD"].
+- Write clear and descriptive commit messages that follows the [COMMIT_GUIDELINES]("./COMMIT_GUIDELINES.MD")..
 - Make sure your code is well-tested and doesn't break existing functionality.
 - Keep the scope of your changes as focused as possible to make review easier.
 
