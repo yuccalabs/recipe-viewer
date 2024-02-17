@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe Book</title>
-    <link rel="stylesheet" href="listing.css">
-</head>
-<body>
+    <link rel="stylesheet" href="listing.css" />
+  </head>
+  <body>
     <header>
-        <h1>Welcome to the Recipe Viewer</h1>
+      <h1>Welcome to the Recipe Viewer</h1>
     </header>
     <div class="filters">
-        <input type="text" id="search" placeholder="Search by recipe name...">
-        <select id="category">
-            <option value="" selected>All Categories</option>
-            <option value="breakfast">Breakfast</option>
-            <option value="lunch">Lunch</option>
-            <option value="dinner">Dinner</option>
-        </select>
+      <input type="text" id="search" placeholder="Search by recipe name..." />
+      <select id="category">
+        <option value="" selected>All Categories</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="snack">Snack</option>
+        <option value="dinner">Dinner</option>
+      </select>
     </div>
     <main id="recipe-container">
-        <!-- Recipe cards will be dynamically added here -->
+      <!-- Recipe cards will be dynamically added here -->
     </main>
-
 
     <script src="recipe.js"></script>
     <script src="listing.js"></script>
-</body>
+  </body>
 </html>
