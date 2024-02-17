@@ -11,6 +11,7 @@
         <h1>Welcome to the Recipe Viewer</h1>
     </header>
     <div class="filters">
+        <form class="searchForm">
         <input type="text" id="search" placeholder="Search by recipe name...">
         <select id="category">
             <option value="" selected>All Categories</option>
@@ -18,6 +19,9 @@
             <option value="lunch">Lunch</option>
             <option value="dinner">Dinner</option>
         </select>
+
+        <button type="submit">search</button>
+    </form>
     </div>
     <main id="recipe-container">
         <!-- Recipe cards will be dynamically added here -->
