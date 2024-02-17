@@ -7,6 +7,8 @@ function displayRecipes() {
     const storedRecipes = JSON.parse(localStorage.getItem('recipes')) || [];
 
     storedRecipes.forEach((recipe) => {
+        const link=document.createElement("a")
+        link.setAttribute("href",`recipe-details.html?id=${recipe.id}`)
         const card = document.createElement('div');
         card.classList.add('recipe-card');
 
@@ -18,7 +20,9 @@ function displayRecipes() {
 
         card.appendChild(title);
         card.appendChild(categories);
-        recipeContainer.appendChild(card);
+        link.appendChild(card)
+        recipeContainer.appendChild(link);
+        
     });
 }
 
